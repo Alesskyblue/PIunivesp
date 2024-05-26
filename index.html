@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content=" Seja um gerente de sucesso"
+    <title>Curso Gerente de sucesso</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src= "getentefarm.png">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item">Cursos</a>
+            <a class="cabecalho-menu-item">Contato</a>  
+            <a class="cabecalho-menu-item">Comunidade</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="prospota">
+            <div>
+                <h1 class="proposta-texto"> Transforme Sua Carreira com Nosso Curso de Gerente Farmacêutico
+
+                </h1>
+                <p class="proposta-texto">Você está pronto para dar o próximo passo na sua carreira farmacêutica? Nosso curso de Gerente Farmacêutico é a oportunidade perfeita para você desenvolver as habilidades e conhecimentos necessários para liderar com confiança e eficácia. Com um currículo abrangente que cobre desde gestão de equipes e operações até estratégias de vendas e atendimento ao cliente, nosso curso foi projetado por especialistas da indústria para fornecer uma formação completa e atualizada. Prepare-se para assumir um papel de liderança e faça a diferença na gestão de farmácias, garantindo excelência no atendimento e eficiência operacional. </p>
+                <p class="proposta-texto"> Nossos alunos têm acesso a uma combinação única de aulas teóricas e práticas, com estudos de caso reais e simulações de situações do dia a dia. Além disso, oferecemos suporte contínuo com mentores experientes e uma comunidade ativa de profissionais para networking. Ao concluir o curso, você estará preparado para enfrentar os desafios do mercado e se destacar como um líder inovador e competente. Não perca a chance de transformar sua carreira e elevar seus conhecimentos a um novo patamar. Inscreva-se agora e inicie sua jornada rumo ao sucesso como Gerente Farmacêutico!</p>
+                <img class="proposta-imagem" src="genrente2.png">
+
+
+            </div>
+        </section>
+
+        <div class="contact-form">
+            <form action="process_form.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <section class="beneficios">
+            <h1 class="beneficios-texto">Beneficios</h1>
+            <a class="beneficios-texto">Texto texto</a>
+        </section>
+
+
+        <section>
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="prova1.png" alt="Imagem 1">
+                    <img src="prova2.png" alt="Imagem 2">
+                    <img src="prova3.png" alt="Imagem 3">
+                    <img src="prova4.png" alt="Imagem 4">
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+</body>
+</html>

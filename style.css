@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:  none;
+}
+
+body {
+    font-size: 100%;
+    background: #CFAA92
+}
+
+.cabecalho  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.prospota {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.proposta-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.proposta-magem {
+   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 72px;
+}
+
+..contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+.formulario-titulo {
+    font-family: "Poppins", sans-serif;
+    gap: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+   
+
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.beneficios-texto {
+    font-family: "Poppins", sans-serif;
+    gap: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.prova-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    margin-bottom: 48px;
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
+.prova-social-item {
+    font-family: "Poppins", sans-serif;
+    gap: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
